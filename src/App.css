@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  margin: 40px;
+}
+
+.App h1 {
+  font-family: "Merriweather", serif;
+  font-size: 44px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.add-autor {
+  display: flex;
+  justify-content: center;
+}
+
+.add-autor h3 {
+  margin: 0 5px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.article-autorName {
+  font-family: "Merriweather", serif;
+  margin: auto;
+  font-size: 18px;
+  display: flex;
+  justify-content: left;
+  color: rgb(131, 129, 129);
+}
+
+.article-button {
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  background-color: white;
+  border: 1px solid cadetblue;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.article-card textarea {
+  height: 300px;
+}
+
+.article-card h3 {
+  margin: 0 5px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  justify-content: left;
+}
+
+.article-publish-card-p {
+  column-count: 3;
+  column-gap: 90px;
+  column-rule-style: dotted;
+  width: auto;
+  height: auto;
+  margin: 30px 60px;
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.article-publish-card h4 {
+  font-family: "Merriweather", serif;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  font-size: 24px;
+  color: cadetblue;
+  padding: 5px;
+  width: auto;
+}
+
+.article-publish-card h4:active {
+  color: rgb(67, 112, 114);
+}
+
+.article-publish-card h3 {
+  font-family: "Merriweather", serif;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  font-size: 24px;
+  padding: 5px;
+  width: auto;
+  border-bottom: 1px dotted black;
+}
+
+.article-publish-card input {
+  width: 1160px;
+  margin-top: 10px;
+}
+
+.comment-card {
+  margin: 10px;
+  border: 1px solid cadetblue;
+  border-radius: 8px;
+}
+
+.comment-card b {
+  font-family: "Merriweather", serif;
+  margin: auto;
+  margin-left: 60px;
+  display: flex;
+  justify-content: left;
+  font-size: 24px;
+  color: cadetblue;
+  width: auto;
+}
+
+.comment-card b:active {
+  color: rgb(67, 112, 114);
+}
+
+.comment-card-p {
+  width: auto;
+  height: auto;
+  margin: 30px 60px;
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.comment-card input {
+  width: 600px;
+  margin: 10px 0;
+}
